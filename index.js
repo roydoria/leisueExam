@@ -13,9 +13,6 @@ app.use(bodyParser.urlencoded({
 
 app.use(bodyParser.json())
 
-// for online db
-// mongoose.connect("mongodb+srv://admin-roy:angel135@cluster0.ifnrr.mongodb.net/userDB", {useNewUrlParser: true});
-
 mongoose.connect("mongodb://localhost:27017/userDB", {
     useNewUrlParser: true,
     useUnifiedTopology: true
